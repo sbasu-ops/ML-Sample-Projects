@@ -1,0 +1,239 @@
+body {
+    background-color: white;
+}
+
+.top_image{
+    width:100%;
+    height:100px;
+}
+
+.title_container{
+    
+    width: device-width;
+    height: 100px;
+    background-color:green;
+}
+
+.title{
+    color: ghostwhite;
+    position:relative;
+    width:20%;
+    height: auto;
+    bottom: 88%;
+    margin: 0 auto;
+    font: 42px bolder Segoe UI, sans-serif;
+}
+
+.title_name{
+    color: ghostwhite;
+    position:relative;
+    width: 24%;
+    height: auto;
+    bottom: 82%;
+    margin: 0 auto;
+    font: 16px Segoe UI, sans-serif;
+}
+
+.menus{
+    width:device-width;
+    height:auto;
+}
+
+.empty{
+    float:left;
+    width:35%;
+    margin-left: 20px;
+}
+
+.month_div{
+    float:left;
+    width:15%;
+    margin-left: 20px;
+}
+
+.year_div{
+    float:left;
+    width:15%;
+    margin-left: 20px;
+}
+
+.tick_div{
+    float:left;
+    width:15%;
+    margin-left: 20px;
+}
+
+.run_div{
+    float: left;
+    width:10%;
+    margin-left: 20px;
+}
+
+.viz{
+    width:device-width;
+    height:auto;
+    
+}
+
+.net_viz{
+    margin-right:20px;
+    margin-left: 10px;
+    width:70%;
+    float:left;
+    height:auto;
+    
+}
+
+.bar_viz{
+    width:25%;
+    float:left;
+    height:auto;
+}
+
+
+path.edges {
+    fill: none;
+    stroke: royalblue;
+    stroke-width: 0.2px;
+  } 
+  
+circle{
+fill: #ccc;
+stroke: red;
+stroke-width: 0.5px;
+} 
+
+text{
+fill: black;
+font: 12px bold sans-serif;
+pointer-events: none;
+}
+
+text.legend {
+    font: 12px sans-serif;
+    pointer-events: none;
+    }
+
+text.size {
+    fill:black;
+    font: 14px bolder sans-serif;
+    pointer-events: none;
+    }
+
+
+.commsr {
+fill: #006837;
+stroke: #006837;
+stroke-width: 0.1px;
+pointer-events: all;
+}
+
+.consdis {
+fill: #1a9850;
+stroke: #1a9850;
+stroke-width: 0.1px;
+pointer-events: all;
+}
+
+.consstap{
+fill: #66bd63;
+stroke: #66bd63;
+stroke-width: 0.1px;
+pointer-events: all;
+}
+
+.energy{
+fill: #a6d96a;
+stroke: #a6d96a;
+stroke-width: 0.1px;
+pointer-events: all;
+}
+
+.financials{
+fill: #c5f710;
+stroke: #c5f710;
+stroke-width: 0.1px;
+pointer-events: all;
+}
+
+.health{
+fill: #696904;
+stroke: #696904;
+stroke-width: 0.1px;
+pointer-events: all;
+}
+
+.industrials{
+fill: #d3af4a;
+stroke: #d3af4a;
+stroke-width: 0.1px;
+pointer-events: all;
+}
+
+.infotech{
+fill: #fdae61;
+stroke: #fdae61;
+stroke-width: 0.1px;
+pointer-events: all;
+}
+
+
+.materials {
+fill: #f46d43;
+stroke: #f46d43;
+stroke-width: 0.1px;
+pointer-events: all;
+}
+
+.realestate{
+fill: #d73027;
+stroke: #d73027;
+stroke-width: 0.1px;
+pointer-events: all;
+}
+
+.utilities{
+fill: #a50026;
+stroke: #a50026;
+stroke-width: 0.1px;
+pointer-events: all;
+}
+
+.missing{
+fill: #d6d2d2;
+stroke: #d6d2d2;
+stroke-width: 0.1px;
+pointer-events: all;
+}
+
+.selected{
+fill: #0000ff;
+stroke: black;
+stroke-width: 0.5px;
+pointer-events: all;
+}
+
+.neighbors{
+fill: black;
+stroke: black;
+stroke-width: 0.5px;
+pointer-events: all;
+}
+
+
+.pinclass {
+fill: lawngreen;
+stroke: yellow;
+stroke-width: 0.5px;
+pointer-events: all;
+}
+
+text.node_label {
+color: blue;
+margin-left: 2px;
+font: 8px bold Segoe UI, sans-serif;
+}
+
+
+
+

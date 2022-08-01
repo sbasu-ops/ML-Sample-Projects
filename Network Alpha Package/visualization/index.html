@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- <script src="https://d3js.org/d3.v4.js"></script> -->
+    <script type="text/javascript" src="../lib/d3.v5.min.js"></script>
+    <script type="text/javascript" src="../lib/d3-dsv.min.js"></script>
+    <script type="text/javascript" src="../lib/d3-legend.min.js"></script>
+    <script type="text/javascript" src="../lib/d3-tip.min.js"></script>
+    <!-- <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script> -->
+    <title>Network Alpha - A Stock Picker Thesaurus</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class='title_container'>   
+        <img src="Top.jpg" class='top_image'>
+        <div class='title'> Network Alpha </div>
+        <div class='title_name'> J. Dobrzynski, S. Basu, I. Kim, C. Sawyer, S. Paintner</div>
+    </div>
+
+    <br />
+    
+    <div class='menus'>
+        <div id= 'empty ' class= 'empty'> 
+            <form id="form0" name="form0" method="post">
+                 <label for="select_view">Select View</label>
+                 <input type="radio" id="filter" name="Select View" value="Filtered" checked="checked">
+                 <label for="filter">Filtered</label>
+                 <input type="radio" id="dense" name="Select View" value="All">
+                 <label for="dense">All</label>
+        </div>
+
+        <div id='month_div' class='month_div'>  
+            <form id="form1" name="form1" method="post">
+
+                <label for="gMonth">Month:&nbsp;</label>
+                <select id='gMonth' name="gMonth">
+                    <option value=''>--Select Month--</option>
+                    <option selected value='1'>January</option>
+                    <option value='2'>February</option>
+                    <option value='3'>March</option>
+                    <option value='4'>April</option>
+                    <option value='5'>May</option>
+                    <option value='6'>June</option>
+                    <option value='7'>July</option>
+                    <option value='8'>August</option>
+                    <option value='9'>September</option>
+                    <option value='10'>October</option>
+                    <option value='11'>November</option>
+                    <option value='12'>December</option>
+                </select>
+            </form>
+
+        </div>
+
+        <div id='year_div' class='year_div'>  
+            <form id="form2" name="form2" method="post">
+                <label for="gYear">Year:&nbsp;</label>
+                <select id='gYear' name="gYear">
+                    <option value=''>--Select Year--</option>
+                    <option selected value='1'>2016</option>
+                    <option value='2'>2017</option>
+                    <option value='3'>2018</option>
+                    <option value='4'>2019</option>
+                </select>
+            </form>
+
+        </div>
+        
+        <div id='tick_div' class='tick_div'> 
+            <form id="form3" name="form3" method="post">
+                <label for="selectStock">Stock Ticker:&nbsp;</label>
+                <select id="selectStock" name="selectStock"></select>                
+            </form>
+        </div>
+
+        <div id='run_div' class= 'run_div'> 
+            <input type="submit" id='submit' name="submit" value=" RUN " onclick="run_func()">
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+
+    <div id="viz" class='viz'>
+        <div id='net_viz' class='net_viz'> 
+        </div>
+        <div id='bar_viz' class ='bar_viz'> 
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="main.js"></script>
+
+    
+</body>
+</html >
