@@ -1,0 +1,27 @@
+Train:
+  batch_size: 200
+  learning_rate: 0.001
+  epochs: 40
+  momentum: 0.95
+  wt_decay: 0.01
+  
+  validation_batch_size: 25
+  test_batch_size: 25
+  debug: False
+  
+  is_fooling: True
+  is_combined: True
+  foolpath1: './datasets/ImageNetFool20/train'
+  foolpath2: './datasets/ImageNetFool5/train'
+  foolpath3: './datasets/ImageNetFool100/train'
+  fooling_lr: 5.0
+  fool_iterations: 100  
+  
+
+Model:
+  type: ResNet18 # Type of model
+  details: 'Scratch_FooledAllCombined_reg0.01_50_0.001_0.95'
+  pre_trained: False  #whether use pre-trained model or not
+  feature_extract: False #If true, only fully connected layer is updated. Else all weights are fine tuned.
+
+
