@@ -22,9 +22,9 @@ Insights and Potential Enhancements:
 While the model demonstrates notable proficiency in predicting positive reviews, the predominant class within the dataset, there exists room for advancement in effectively analyzing reviews of a mixed or neutral sentiment. This identifies an area for potential enhancement and further fine-tuning of the model.
 
 
-2. **Network Alpha: Stock Similarity Visualization using D3.js, Bloomberg API, and k-NN Algorithm**
+2. **Network Alpha: Stock Similarity Visualization using D3.js, SEC EDGAR, and k-NN Algorithm**
    
-This project features a visualization tool built with D3.js that identifies stocks sharing similarities in fundamental metrics. Leveraging data obtained through the Bloomberg API and employing the k-Nearest Neighbors (k-NN) algorithm, this tool constructs a graph visualization where nearest neighbor stocks are interconnected.
+This project features a visualization tool built with D3.js that identifies stocks sharing similarities in fundamental metrics. Leveraging data obtained from the SEC EDGAR database and employing the k-Nearest Neighbors (k-NN) algorithm, this tool constructs a graph visualization where nearest neighbor stocks are interconnected.
 
 Key Features:
 
